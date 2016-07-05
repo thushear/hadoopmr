@@ -131,6 +131,15 @@ public class KPI {
         return kpi;
     }
 
+    /**
+     * 按page的独立ip分类
+     */
+    public static KPI filterIPs(String line) {
+        KPI kpi = parser(line);
+
+        return kpi;
+    }
+
     public static void main(String[] args) {
         String line = "106.120.173.126 - - [05/Jul/2016:16:58:46 +0800] \"GET /91456034.html HTTP/1.1\" 302 306 \"-\" \"Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)\" \"-\"";
         KPI kpi = parser(line);
