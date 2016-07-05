@@ -1,0 +1,19 @@
+.svn/
+target/
+test-output/
+*.class
+.classpath
+.project
+.settings/
+tmp
+temp
+*.log
+.metadata/
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+/bin
